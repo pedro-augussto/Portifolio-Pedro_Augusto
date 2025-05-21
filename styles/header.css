@@ -21,7 +21,7 @@
   }
   .menu-link::after {
     content: "";
-    height: 0.125rem;
+    height: 0.25rem;
     width: 0;
     position: absolute;
     bottom: 0;

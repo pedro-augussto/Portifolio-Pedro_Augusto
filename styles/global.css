@@ -15,11 +15,11 @@
   
   :root {
     --primaria:rgb(37, 29, 100);
-    --secundaria: #3b1ab6c5;
+    --secundaria:rgba(97, 78, 167, 0.77);
     --claro: #cac9d3;
     --escuro:rgb(58, 58, 59);
     --maisEscuro: #030303;
-    --transparente: rgba(3, 3, 5, 0.808);
+    --transparente: rgba(3, 3, 5, 0.31);
   }
 
 
