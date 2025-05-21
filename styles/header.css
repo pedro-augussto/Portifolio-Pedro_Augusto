@@ -1,0 +1,42 @@
+.navegacao {
+    position: fixed;
+    top: 0;
+    background-color: var(--transparente);
+    width: 100%;
+    z-index: 100;
+    padding: 1.2rem;
+    & .menu {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 1.5rem;
+      & .menu-link {
+        text-decoration: none;
+        color: var(--claro);
+        font-weight: 600;
+        position: relative;
+        padding: 1rem 0;
+      }
+    }
+  }
+  .menu-link::after {
+    content: "";
+    height: 0.125rem;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+    transition: width 0.5s ease;
+  }
+  .menu-link:hover::after{
+      width: 100%;
+  }
+  
+  .cabecalho {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }

@@ -1,0 +1,46 @@
+.icons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 0.06rem solid var(--transparente);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+  
+  .icons i {
+    font-size: 48px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Ícones individuais com cor */
+  .html-icon {
+    color: #e34c26;
+  }
+  
+  .js-icon {
+    color: #f0db4f;
+  }
+  
+  .react-icon {
+    color: #61dafb;
+  }
+  
+  .node-icon {
+    color: #3c873a;
+  }
+  
+  .sql-icon {
+    color: #00758f; /* tom azul para SQL genérico */
+  }
+  
+  .docker-icon {
+    color: #2496ed;
+  }
+  
